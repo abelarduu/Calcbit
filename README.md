@@ -1,9 +1,9 @@
 <div align="center">
-<div>
+<header>
 <img src="img/calcbit icon.png" alt="Calcbit Icon">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Terminus&pause=100&center=verdadeiro&vCenter=falso&repeat=verdadeiro&width=230&lines=Calculadora+Simples)](https://git.io/typing-svg)
-</div>
+</header>
 
 <div>
   <h4>🚧⚠️Em desenvolvimento...⚠️🚧</h4>
@@ -23,6 +23,7 @@
       <img src="https://img.shields.io/badge/Pyxel-v1.9.12-blue?style=for-the-badge&logo=python&logoColor=white" alt="Pyxel V.1.9.12" ></a>
   </p>
 </div>
+
 <div>
   <h3>Resultado</h3>
   <img src="img/CalcBit.gif" alt="Calcbit gif">
