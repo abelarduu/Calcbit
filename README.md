@@ -1,6 +1,6 @@
 <div align="center">
 <header>
-<img src="img/calcbit icon.png" alt="Calcbit Icon">
+<img src="img/calcbit icon.png" type="image/png" alt="Calcbit Icon">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Terminus&pause=100&center=verdadeiro&vCenter=falso&repeat=verdadeiro&width=230&lines=Calculadora+Simples)](https://git.io/typing-svg)
 </header>
@@ -8,7 +8,7 @@
 <div>
   <h4>🚧⚠️Em desenvolvimento...⚠️🚧</h4>
   <figure>
-    <img src="img/interface.png" alt="Interface do Calcbit"></br>
+    <img src="img/interface.png" type="image/png" alt="Interface do Calcbit"></br>
     <figcaption>Aba/Interface do Calcbit</figcaption>
   </figure>
 </div>
@@ -26,6 +26,6 @@
 
 <div>
   <h3>Resultado</h3>
-  <img src="img/Calcbit.gif" alt="Calcbit gif">
+  <img src="img/Calcbit.gif" type="image/gif" alt="Calcbit gif">
 </div>
 </div>
