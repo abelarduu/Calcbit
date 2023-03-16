@@ -26,6 +26,6 @@
 
 <div>
   <h3>Resultado</h3>
-  <img src="img/CalcBit.gif" alt="Calcbit gif">
+  <img src="img/Calcbit.gif" alt="Calcbit gif">
 </div>
 </div>
