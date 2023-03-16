@@ -26,7 +26,6 @@
 
 <div>
   <h3>Resultado</h3>
-  <img src="img/CalcBit.gif" alt="Calcbit gif">
-  <img href="https://github.com/abelarduu/Calcbit/blob/5a785b04f86c5d25ebb4b49fcde65f5fab57351a/img/Calcbit.gif" alt="Calcbit gif">
+  <img src="img/Calcbit.gif" alt="Calcbit gif">
 </div>
 </div>
