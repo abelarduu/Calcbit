@@ -15,7 +15,7 @@
 
 <div>
   <h3>Sobre o projeto</h3>
-  <p>Calcbit é uma calculadora simples com o ambiente gráfico no estilo de pixel art, com seu sistema feito em python utilizando o módulo pyxel.</p>
+  <p>Calcbit é uma calculadora simples com o ambiente gráfico no estilo de pixel art, com seu sistema feito em python utilizando a game engine Pyxel.</p>
   <p>
     <a href="https://www.python.org/">
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python V.3.9" ></a>
