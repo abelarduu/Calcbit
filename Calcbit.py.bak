@@ -15,6 +15,7 @@ class Button(object):
         self.height= height
         self.key= key
         self.value= value
+
         
     def press(self):
         if pyxel.mouse_y > self.y and pyxel.mouse_y < self.y + self.height or pyxel.btnp(self.key):
