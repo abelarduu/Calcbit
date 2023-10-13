@@ -20,7 +20,7 @@
     <a href="https://www.python.org/">
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python V.3.9" ></a>
     <a href="https://github.com/kitao/pyxel">
-      <img src="https://img.shields.io/badge/Pyxel-v1.9.12-blue?style=for-the-badge&logo=python&logoColor=white" alt="Pyxel V.1.9.12" ></a>
+      <img src="https://img.shields.io/badge/Pyxel-v1.9.18-blue?style=for-the-badge&logo=python&logoColor=white" alt="Pyxel V.1.9.18" ></a>
   </p>
 </div>
 
