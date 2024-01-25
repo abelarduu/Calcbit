@@ -32,70 +32,65 @@ class Button(object):
 #Calculadora
 class Calc:
     def __init__(self):
-        #Declarando variaveis
         self.result= ""
         #Numeros
-        self.btn0=Button(x=0,y=121,img=0,imgx=0,imgy=96, width=24, height=24, key= pyxel.KEY_KP_0, value= '0')
-        self.btn1=Button(x=0,y=97,img=0,imgx=0,imgy=72, width=24, height=24, key= pyxel.KEY_KP_1, value= '1')
-        self.btn2=Button(x=24,y=97,img=0,imgx=24,imgy=72, width=24, height=24, key= pyxel.KEY_KP_2, value= '2')
-        self.btn3=Button(x=48,y=97,img=0,imgx=48,imgy=72, width=24, height=24, key= pyxel.KEY_KP_3, value= '3')
-        self.btn4=Button(x=0,y=73,img=0,imgx=0,imgy=48, width=24, height=24, key= pyxel.KEY_KP_4, value= '4')
-        self.btn5=Button(x=24,y=73,img=0,imgx=24,imgy=48, width=24, height=24, key= pyxel.KEY_KP_5, value= '5')
-        self.btn6=Button(x=48,y=73,img=0,imgx=48,imgy=48, width=24, height=24, key= pyxel.KEY_KP_6, value= '6')
-        self.btn7=Button(x=0,y=49,img=0,imgx=0,imgy=24, width=24, height=24, key= pyxel.KEY_KP_7, value= '7')
-        self.btn8=Button(x=24,y=49,img=0,imgx=24,imgy=24, width=24, height=24, key= pyxel.KEY_KP_8, value= '8')
-        self.btn9=Button(x=48,y=49,img=0,imgx=48,imgy=24, width=24, height=24, key= pyxel.KEY_KP_9, value= '9')
+        self.btn0=Button(0, 121, 0, 0, 96, 24, 24, pyxel.KEY_KP_0, '0')
+        self.btn1=Button(0, 97, 0, 0, 72, 24, 24, pyxel.KEY_KP_1, '1')
+        self.btn2=Button(24, 97, 0, 24, 72, 24, 24, pyxel.KEY_KP_2, '2')
+        self.btn3=Button(48, 97,0, 48, 72, 24, 24, pyxel.KEY_KP_3, '3')
+        self.btn4=Button(0, 73,0, 0, 48, 24, 24, pyxel.KEY_KP_4, '4')
+        self.btn5=Button(24, 73,0, 24, 48, 24, 24, pyxel.KEY_KP_5, '5')
+        self.btn6=Button(48, 73,0, 48, 48, 24, 24, pyxel.KEY_KP_6, '6')
+        self.btn7=Button(0, 49,0, 0, 24, 24, 24, pyxel.KEY_KP_7, '7')
+        self.btn8=Button(24, 49,0, 24, 24, 24, 24, pyxel.KEY_KP_8, '8')
+        self.btn9=Button(48, 49,0, 48, 24, 24, 24, pyxel.KEY_KP_9, '9')
+        
         #Simbolos/operadores
-        self.btnAC=Button(x=72,y=25,img=0,imgx=72,imgy=0, width=24, height=24, key= pyxel.KEY_DELETE, value= '')
-        self.btnEqual=Button(x=48,y=121,img=0,imgx=48,imgy=96, width=24, height=24, key= pyxel.KEY_KP_ENTER, value= '')
-        self.btnAdd=Button(x=72,y=121,img=0,imgx=72,imgy=96, width=24, height=24, key= pyxel.KEY_KP_PLUS, value= '+')
-        self.btnSub=Button(x=72,y=97,img=0,imgx=72,imgy=72, width=24, height=24, key= pyxel.KEY_KP_MINUS, value= '-')
-        self.btnMult=Button(x=72,y=73,img=0,imgx=72,imgy=48, width=24, height=24, key= pyxel.KEY_KP_MULTIPLY, value= '*')
-        self.btnDiv=Button(x=72,y=49,img=0,imgx=72,imgy=24, width=24, height=24, key= pyxel.KEY_KP_DIVIDE, value= '/')
-        self.btnPerc=Button(x=48,y=25,img=0,imgx=48,imgy=0, width=24, height=24, key= pyxel.KEY_PERCENT, value= '%')
-        self.btnPoint=Button(x=24,y=121,img=0,imgx=24,imgy=96, width=24, height=24, key= pyxel.KEY_KP_PERIOD , value= '.')
-        self.btnParentheses1=Button(x=0,y=25,img=0,imgx=0,imgy=0, width=24, height=24, key= pyxel.KEY_LEFTPAREN, value= '(')
-        self.btnParentheses2=Button(x=24,y=25,img=0,imgx=24,imgy=0, width=24, height=24, key= pyxel.KEY_RIGHTPAREN , value= ')')
+        self.btnAC=Button(72, 25, 0, 72, 0, 24, 24, pyxel.KEY_DELETE, '')
+        self.btnEqual=Button(48, 121, 0, 48, 96, 24, 24, pyxel.KEY_KP_ENTER, '')
+        self.btnAdd=Button(72, 121, 0, 72, 96, 24, 24, pyxel.KEY_KP_PLUS, '+')
+        self.btnSub=Button(72, 97, 0, 72, 72, 24, 24, pyxel.KEY_KP_MINUS, '-')
+        self.btnMult=Button(72, 73, 0, 72, 48, 24, 24, pyxel.KEY_KP_MULTIPLY, '*')
+        self.btnDiv=Button(72, 49, 0, 72, 24, 24, 24, pyxel.KEY_KP_DIVIDE, '/')
+        self.btnPerc=Button(48, 25, 0, 48, 0, 24, 24, pyxel.KEY_PERCENT, '%')
+        self.btnPoint=Button(24, 121, 0, 24, 96, 24, 24, pyxel.KEY_KP_PERIOD , '.')
+        self.btnParentheses1=Button(0, 25,0, 0, 0, 24, 24, pyxel.KEY_LEFTPAREN, '(')
+        self.btnParentheses2=Button( 24, 25, 0, 24, 0, 24, 24, pyxel.KEY_RIGHTPAREN , ')')
+        
         #Lista de Botões
         self.btnList=[self.btn0, self.btn1, self.btn2, self.btn3, self.btn4, self.btn5, self.btn6, self.btn7, self.btn8, self.btn9,
                       self.btnAC, self.btnEqual, self.btnAdd, self.btnSub, self.btnMult, self.btnDiv, self.btnPerc, self.btnPoint, self.btnParentheses1, self.btnParentheses2]
-        pyxel.init(96,145, 'CalcBit',quit_key= False)
+        
+        pyxel.init(96,145, 'CalcBit')
         pyxel.load('resources/CalcBit.pyxres')
         pyxel.run(self.update, self.draw)
-        
-    #Método para receber o resultado do calculo inserido
+
     def getResult(self):
         self.result= eval(self.result)
         
-    #Método de verificação de interação a cada quadro
     def update(self):
         for btn in self.btnList:
             if btn.press():
-                #Se num1 receber o num maximo
                 if len(str(self.result)) < 21:
                     self.result =str(self.result)+str(btn.value)
-                #Botão AC
-                if btn.key== pyxel.KEY_DELETE:      #if for Butão AC:
-                    self.result= ""                 #   apague tudo
-                #Botão Igual
+
+                if btn.key== pyxel.KEY_DELETE:
+                    self.result= self.result[:-len(self.result)]             
+
                 if btn.key== pyxel.KEY_KP_ENTER and len(self.result)!= 0:
                     self.getResult()
-        #Botão BACKSPACE
-        if pyxel.btnp(pyxel.KEY_BACKSPACE) and len(self.result) > 0:
-            self.result= self.result.replace(str(self.result[-1]), "",1)
 
-    #Método para atualização de tela a cada quadro
+        if pyxel.btnp(pyxel.KEY_BACKSPACE) and len(self.result) > 0:
+            self.result= self.result[:-1]
+
     def draw(self):
         pyxel.cls(0)
-        pyxel.mouse(True)
-        #Display da calculadora
-        #Tela de saida de dados da calculadora         
+        pyxel.mouse(True)    
         pyxel.rect(5,2,86,20,11)
         pyxel.rectb(5,2,86,20,3)
-        pyxel.text(90-len(str(self.result))*4,15,str(self.result),7)
+        pyxel.text(90 - len(str(self.result)) * pyxel.FONT_WIDTH, 15, str(self.result),7)
         for btn in self.btnList:
             btn.draw()
-        
-#verificação da execução direta do módulo
+
 if __name__== "__main__":
     Calc()
