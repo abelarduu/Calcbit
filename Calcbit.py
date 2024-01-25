@@ -75,10 +75,11 @@ class Calc:
                     self.result =str(self.result)+str(btn.value)
 
                 if btn.key== pyxel.KEY_DELETE:
-                    self.result= self.result[:-len(self.result)]             
+                    self.result= self.result[:-len(self.result)]
 
                 if btn.key== pyxel.KEY_KP_ENTER and len(self.result)!= 0:
-                    self.getResult()
+                    try:self.getResult()
+                    except: self.result= self.result[:-len(self.result)]
 
         if pyxel.btnp(pyxel.KEY_BACKSPACE) and len(self.result) > 0:
             self.result= self.result[:-1]

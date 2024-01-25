@@ -6,7 +6,6 @@
 </header>
 
 <div>
-  <h4>🚧⚠️Em desenvolvimento...⚠️🚧</h4>
   <figure>
     <img src="img/interface.png" type="image/png" alt="Interface do Calcbit"></br>
     <figcaption>Aba/Interface do Calcbit</figcaption>
