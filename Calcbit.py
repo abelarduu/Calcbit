@@ -1,9 +1,5 @@
-#############################
-#CalcBit - calculadora pixel#
-#############################
 import pyxel
 
-#Padronização dos botões
 class Button(object):
     def __init__(self, x:int, y:int, img:int, imgx:int, imgy:int, width:int, height:int, key:None, value:str):
         self.x= x
@@ -29,7 +25,6 @@ class Button(object):
     def draw(self):
         pyxel.blt(self.x, self.y,self.img, self.imgx, self.imgy, self.width, self.height)
 
-#Calculadora
 class Calc:
     def __init__(self):
         self.result= ""
@@ -62,7 +57,7 @@ class Calc:
                       self.btnAC, self.btnEqual, self.btnAdd, self.btnSub, self.btnMult, self.btnDiv, self.btnPerc, self.btnPoint, self.btnParentheses1, self.btnParentheses2]
         
         pyxel.init(96,145, 'CalcBit')
-        pyxel.load('resources/CalcBit.pyxres')
+        pyxel.load('assets/CalcBit.pyxres')
         pyxel.run(self.update, self.draw)
 
     def getResult(self):

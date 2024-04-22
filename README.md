@@ -4,7 +4,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Terminus&pause=100&center=verdadeiro&vCenter=falso&repeat=verdadeiro&width=230&lines=Calculadora+Simples)](https://git.io/typing-svg)
 
 ### Sobre o projeto
-### 🚧⚠️Em desenvolvimento...⚠️🚧
 
 Calcbit é uma calculadora simples com o ambiente gráfico no estilo de pixel art, com seu sistema feito em python utilizando a game engine Pyxel.
  
